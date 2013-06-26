@@ -6,8 +6,6 @@ Pod::Spec.new do |s|
   s.license      = 'BSD'
   s.author       = { 'Baptiste FETET' => 'baptiste@octiplex.com' }
   s.source       = { :git => "https://github.com/baptistefetet/KeychainItemWrapper.git" }
-  s.platform            = :osx, "10.7"
-  s.osx.deployment_target = '10.7'
   s.source_files = '*.{h,m}'
   s.frameworks   = 'Carbon', 'Cocoa'
   s.requires_arc = true
