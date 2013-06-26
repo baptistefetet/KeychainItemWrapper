@@ -7,6 +7,5 @@ Pod::Spec.new do |s|
   s.author       = { 'Baptiste FETET' => 'baptiste@octiplex.com' }
   s.source       = { :git => "https://github.com/baptistefetet/KeychainItemWrapper.git" }
   s.source_files = '*.{h,m}'
-  s.frameworks   = 'Carbon', 'Cocoa'
   s.requires_arc = true
 end
